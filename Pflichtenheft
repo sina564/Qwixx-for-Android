@@ -1,0 +1,46 @@
+	1. Projektbeschreibung 
+Ziel des Projekts: Erstellen eines Programms, dass das Spielblatt eines Spielers für Qwixx simuliert 
+Hintergrund: Das Projekt wurde initiiert, damit man das Spiel einfach für sich selbst digital spielen kann?
+
+
+	2. Stakeholder und Zielgruppe
+Stakeholder: Sina Lücke, Robert Scheiermann, Philip Friesz
+
+Zielgruppe: Hr. Mundry
+
+	3. Anforderungen
+		a. Funktionale Anforderungen
+			i. Die Software simuliert das Spielblatt aus dem analogen Spiel. 
+			ii. Es muss möglich sein dort Zahlen (die man ggfs. wirklich gewürfelt hat) zu durchkreuzen, sodass dies sichtbar und nicht mehr umkehrbar ist (außer vll 2x im gesamten Spiel? )
+		b. Nicht-funktionale Anforderungen
+		c. Technische Anforderungen
+			i. Es soll auf Android (mind. V. 7) laufen
+			ii. Es soll auf jedem Endgerät (Smartphone) funktionieren
+			iii. Google Play Store?
+		
+	4. Abgrenzungskriterien
+		a. Was macht die Software nicht?
+			i. Kontrolliert den Spieler nicht auf dessen korrekte Ausführung des Spiels (z.B. abstreichen einer Zahl, die er gar nicht gewürfelt hat)
+			ii. Simuliert nicht, wie gewürfelt wird
+			iii. Simuliert nicht den gesamten Spielverlauf
+			iv. Erlaubt kein Multiplayer, jeder muss die Applikation selbst laufen lassen auf seinem Client
+	5. Benutzererfahrung
+		a. Wie soll die Oberfläche aussehen und welche Interaktionen werden erwartet ?
+			i. Die Oberfläche soll aussehen wie das normale Spielblatt, auf dem man seine (in echt) gewürfelte Zahl abstreichen kann. Die gestrichene Zahl soll klar erkenntlich "durchgestrichen" sein.
+			ii. 
+	6. Lieferumfang
+		a. Was soll geliefert werden? Einzelne Lieferobjekte mit auflisten (z.B. Softwareprodukt, Dokumentation, Materialien)
+	7. Abnahmekriterien
+		a. Nach welchen Kriterien wird das fertige Produkt abgenommen ?
+	8. Projektplan und Meilensteine
+		a. Zeitplan mit wichtigen Meilensteinen, unter anderem auch Termine für Überprüfung und Bewertung des Fortschritts
+	9. Budget und Ressourcen
+		a. Budget und benötigte Ressourcen auflisten, Kosten und Aufwand schätzen für die Umsetzung der Anforderungen
+	10. Risikomanagement
+		a. Risiken identifizieren und wie diese minimiert werden können
+	11. Änderungsmanagement
+		a. Verfahren definieren für Änderungen am Lastenheft während des Projektverlaufs
+	12. Anhänge und Referenzmaterialien
+		a. relevante Anhänge, Glossare und Referenzdokumente beifügen, um die Verständlichkeit und Vollständigkeit zu erhöhen
+
+
