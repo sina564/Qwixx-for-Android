@@ -1,46 +1,98 @@
-	1. Projektbeschreibung 
-Ziel des Projekts: Erstellen eines Programms, dass das Spielblatt eines Spielers für Qwixx simuliert 
-Hintergrund: Das Projekt wurde initiiert, damit man das Spiel einfach für sich selbst digital spielen kann?
+1. Projektbeschreibung
+Ziel des Projekts:
+Erstellen eines Programms, das das Spielblatt eines Spielers für Qwixx simuliert.
+Hintergrund:
+Das Projekt wurde initiiert, damit man das Spiel einfach für sich selbst digital spielen kann. Es richtet sich an Nutzer, die das Spielblatt ohne physische Würfel verwenden möchten, um so den Spielverlauf digital nachzuhalten. Darüber hinaus dient dieses Projekt dazu, alle Schritte bei der Erstellung eines Programms zu durchlaufen, wie sie auch in der realen Wirtschaft vorkommen, anhand eines kleinen, machbaren Programms wie dem Spiel Qwixx.
+Projektstartdatum: 2. Mai 2024
+Geplante Fertigstellung: 4. Juli 2024
+Zwischenstatus: 13. Juni 2024
 
+2. Stakeholder und Zielgruppe
+Stakeholder:
+Sina Lücke, Robert Scheiermann, Nick Dahms, Philip Friesz
+Zielgruppe:
+Hr. Mundry und andere Interessenten aus unserer Studienklasse.
 
-	2. Stakeholder und Zielgruppe
-Stakeholder: Sina Lücke, Robert Scheiermann, Philip Friesz
+3. Anforderungen
+a. Funktionale Anforderungen
+i. Simulation des Spielblatts:
+Die Software simuliert das Spielblatt aus dem analogen Spiel.
+ii. Ankreuzen von Zahlen:
+Es muss möglich sein, Zahlen, die man gewürfelt hat, anzukreuzen, sodass dies sichtbar und nicht mehr umkehrbar ist (mit der Möglichkeit, zweimal pro Spiel eine Rückgängig-Aktion durchzuführen).
+iii. Regeln für das Ankreuzen:
+Das Spielblatt muss die Regeln für das Ankreuzen der Zahlen einhalten (z.B. von links nach rechts, kein Zurückspringen).
+b. Nicht-funktionale Anforderungen
+i. Benutzerfreundlichkeit:
+	• Die Benutzeroberfläche muss intuitiv und leicht verständlich sein.
+	• Die Anwendung soll eine klare und übersichtliche Darstellung bieten.
+	• Die Anwendung muss auf verschiedenen Geräten performant und ohne Verzögerungen laufen.
+	• Die Benutzerinteraktionen sollen flüssig und ohne merkliche Verzögerungen ablaufen.
+ii. Grafische Oberfläche:
+Die Applikation soll eine ansprechende grafische Oberfläche bieten, die dem analogen Spielblatt ähnelt.
+c. Technische Anforderungen
+i. Plattformkompatibilität:
+	• Es soll auf Android (mind. Version 7) laufen.
+	• Es soll auf jedem Endgerät (Smartphone) funktionieren.
+	• Die Anwendung soll im Google Play Store verfügbar sein.
+ii. Offline-Nutzung:
+Die Anwendung muss ohne Internetverbindung nutzbar sein.
 
-Zielgruppe: Hr. Mundry
+4. Abgrenzungskriterien
+Was macht die Software nicht?
+i. Kontrolliert den Spieler nicht auf dessen korrekte Ausführung des Spiels (z.B. Abstreichen einer Zahl, die er gar nicht gewürfelt hat).
+ii. Simuliert nicht, wie gewürfelt wird.
+iii. Simuliert nicht den gesamten Spielverlauf.
+iv. Erlaubt kein Multiplayer, jeder muss die Applikation selbst auf seinem Client laufen lassen.
 
-	3. Anforderungen
-		a. Funktionale Anforderungen
-			i. Die Software simuliert das Spielblatt aus dem analogen Spiel. 
-			ii. Es muss möglich sein dort Zahlen (die man ggfs. wirklich gewürfelt hat) zu durchkreuzen, sodass dies sichtbar und nicht mehr umkehrbar ist (außer vll 2x im gesamten Spiel? )
-		b. Nicht-funktionale Anforderungen
-		c. Technische Anforderungen
-			i. Es soll auf Android (mind. V. 7) laufen
-			ii. Es soll auf jedem Endgerät (Smartphone) funktionieren
-			iii. Google Play Store?
-		
-	4. Abgrenzungskriterien
-		a. Was macht die Software nicht?
-			i. Kontrolliert den Spieler nicht auf dessen korrekte Ausführung des Spiels (z.B. abstreichen einer Zahl, die er gar nicht gewürfelt hat)
-			ii. Simuliert nicht, wie gewürfelt wird
-			iii. Simuliert nicht den gesamten Spielverlauf
-			iv. Erlaubt kein Multiplayer, jeder muss die Applikation selbst laufen lassen auf seinem Client
-	5. Benutzererfahrung
-		a. Wie soll die Oberfläche aussehen und welche Interaktionen werden erwartet ?
-			i. Die Oberfläche soll aussehen wie das normale Spielblatt, auf dem man seine (in echt) gewürfelte Zahl abstreichen kann. Die gestrichene Zahl soll klar erkenntlich "durchgestrichen" sein.
-			ii. 
-	6. Lieferumfang
-		a. Was soll geliefert werden? Einzelne Lieferobjekte mit auflisten (z.B. Softwareprodukt, Dokumentation, Materialien)
-	7. Abnahmekriterien
-		a. Nach welchen Kriterien wird das fertige Produkt abgenommen ?
-	8. Projektplan und Meilensteine
-		a. Zeitplan mit wichtigen Meilensteinen, unter anderem auch Termine für Überprüfung und Bewertung des Fortschritts
-	9. Budget und Ressourcen
-		a. Budget und benötigte Ressourcen auflisten, Kosten und Aufwand schätzen für die Umsetzung der Anforderungen
-	10. Risikomanagement
-		a. Risiken identifizieren und wie diese minimiert werden können
-	11. Änderungsmanagement
-		a. Verfahren definieren für Änderungen am Lastenheft während des Projektverlaufs
-	12. Anhänge und Referenzmaterialien
-		a. relevante Anhänge, Glossare und Referenzdokumente beifügen, um die Verständlichkeit und Vollständigkeit zu erhöhen
+5. Benutzererfahrung
+Wie soll die Oberfläche aussehen und welche Interaktionen werden erwartet?
+i. Die Oberfläche soll aussehen wie das normale Spielblatt, auf dem man seine (in echt) gewürfelte Zahl abstreichen kann. Die gestrichene Zahl soll klar erkennbar "durchgestrichen" sein.
+ii. Ein klares und übersichtliches Design soll es dem Nutzer ermöglichen, einfach durch das Spielblatt zu navigieren.
+iii. Eine Rückgängig-Funktion, die bis zu zweimal pro Spiel verwendet werden kann, um eine fälschlicherweise angekreuzte Zahl zu entfernen.
 
+6. Lieferumfang
+Was soll geliefert werden?
+	• Softwareprodukt (Applikation)
+	• Dokumentation für Benutzer
+	• Technische Dokumentation für Entwickler
+	• Installationsanleitung
 
+7. Abnahmekriterien
+Nach welchen Kriterien wird das fertige Produkt abgenommen?
+i. Das Spielblatt muss alle funktionalen Anforderungen erfüllen.
+ii. Die Anwendung muss auf den angegebenen Android-Versionen fehlerfrei laufen.
+iii. Die Benutzeroberfläche muss intuitiv und benutzerfreundlich sein.
+iv. Alle definierten Tests müssen erfolgreich bestanden werden.
+
+8. Projektplan und Meilensteine
+Zeitplan mit wichtigen Meilensteinen:
+	• Projektstart: 2. Mai 2024
+	• Spezifikationsphase: 2. Mai - 9. Mai 2024
+	• Designphase: 10. Mai - 23. Mai 2024
+	• Implementierungsphase: 24. Mai - 12. Juni 2024
+	• Testphase: 13. Juni - 27. Juni 2024
+	• Veröffentlichung im Google Play Store: 4. Juli 2024
+	• Überprüfung und Bewertung des Fortschritts: 13. Juni 2024 (Zwischenstatus)
+
+9. Budget und Ressourcen
+Aufstellung der Ressourcen:
+	• Anzahl und Rollen der beteiligten Personen: 3 Entwickler, 1 Designer
+	• Benötigte Materialien und Werkzeuge: Entwicklungsumgebung (IDE), Testgeräte (verschiedene Android-Smartphones)
+Da es sich um ein schulisches Projekt handelt, gibt es kein festes Budget.
+
+10. Risikomanagement
+Risiken identifizieren und wie diese minimiert werden können:
+i. Verzögerungen im Zeitplan → regelmäßige Fortschrittskontrollen und Anpassungen
+ii. Technische Probleme auf verschiedenen Geräten → umfangreiche Tests auf mehreren Geräten
+iii. Unerwartete Kostenüberschreitungen → regelmäßige Budgetüberprüfungen (bei Bedarf)
+
+11. Änderungsmanagement
+Verfahren für Änderungen am Lastenheft:
+	• Änderungsanträge müssen schriftlich eingereicht und von den Stakeholdern genehmigt werden.
+	• Regelmäßige Überprüfung und Anpassung des Lastenhefts basierend auf den Projektanforderungen.
+
+12. Anhänge und Referenzmaterialien
+Relevante Anhänge, Glossare und Referenzdokumente:
+	• Beispiel eines analogen Qwixx-Spielblatts
+	• Benutzerhandbuch des analogen Spiels
+	• Glossar mit wichtigen Begriffen und Definitionen
